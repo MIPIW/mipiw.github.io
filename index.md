@@ -15,14 +15,14 @@ Follow these instructions to build the theme.
 
 ### 1. Download the theme
 
-First, download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**. something changed? 가나다.
+First, download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
 
 ### 2. Install Jekyll
 
 If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
 
-- [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
-- [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
+* [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
+* [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
 
 ### 3. Install Bundler
 
@@ -34,14 +34,14 @@ gem install bundler
 
 You'll want [Bundler](http://bundler.io/) to make sure all the Ruby gems needed work well with your project. Bundler sorts out dependencies and installs missing gems or matches up gems with the right versions based on gem dependencies.
 
-### 4. Option 1: Build the Theme (_without_ the github-pages gem) {#option1}
+### 4. Option 1: Build the Theme (*without* the github-pages gem) {#option1}
 
 Use this option if you're not planning to publish your Jekyll site using [Github Pages](https://pages.github.com/).
 
 Bundler's Gemfile specifies how project dependencies are managed. Although this project includes a Gemfile, this theme doesn't have any dependencies beyond core Jekyll. The Gemfile is used to list gems needed for publishing on Github Pages. **If you're not planning to have Github Pages build your Jekyll project, delete these two files from the theme's root directory:**
 
-- Gemfile
-- Gemfile.lock
+* Gemfile
+* Gemfile.lock
 
 If you've never run Jekyll on your computer (you can check with `jekyll --version`), you may need to install the jekyll gem:
 
@@ -55,9 +55,9 @@ Now run jekyll serve (first change directories (`cd`) to where you downloaded th
 jekyll serve
 ```
 
-### 4. Option 2: Build the Theme (_with_ the github-pages gem) {#option2}
+### 4. Option 2: Build the Theme (*with* the github-pages gem) {#option2}
 
-If you _are_ in fact publishing on Github Pages, leave the Gemfile and Gemfile.lock files in the theme.The Gemfile tells Jekyll to use the github-pages gem. **However, note that you cannot use the normal `jekyll serve` command with this gem due to dependency conflicts between the latest version of Jekyll and Github Pages** (which are noted [briefly here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)).
+If you *are* in fact publishing on Github Pages, leave the Gemfile and Gemfile.lock files in the theme.The Gemfile tells Jekyll to use the github-pages gem. **However, note that you cannot use the normal `jekyll serve` command with this gem due to dependency conflicts between the latest version of Jekyll and Github Pages** (which are noted [briefly here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)).
 
 You need Bundler to resolve these dependency conflicts. Use Bundler to install all the needed Ruby gems:
 
@@ -65,7 +65,7 @@ You need Bundler to resolve these dependency conflicts. Use Bundler to install a
 bundle update
 ```
 
-Then _always_ use this command to build Jekyll:
+Then *always* use this command to build Jekyll:
 
 ```
 bundle exec jekyll serve
@@ -76,11 +76,9 @@ If you want to shorten this long command, you can put this code in a file such a
 ## Running the site in Docker
 
 You can also use Docker to directly build and run the site on your local machine. Just clone the repo and run the following from your working dir:
-
 ```
 docker-compose build --no-cache && docker-compose up
 ```
-
 The site should now be running at [http://localhost:4000/](http://localhost:4000/).
 
 This is perhaps the easiest way to see how your site would actually look.
@@ -93,8 +91,8 @@ The top navigation usually remains the same, because it allows users to navigate
 
 In each page's frontmatter, you must specify the sidebar you want that page to use. Here's an example of the page frontmatter showing the sidebar property:
 
-## <pre>
-
+<pre>
+---
 title: Alerts
 tags: [formatting]
 keywords: notes, tips, cautions, warnings, admonitions
@@ -102,9 +100,7 @@ last_updated: July 3, 2016
 summary: "You can insert notes, tips, warnings, and important alerts in your content. These notes are stored as shortcodes made available through the linksrefs.hmtl include."
 <span class="red">sidebar: mydoc_sidebar</span>
 permalink: mydoc_alerts
-
 ---
-
 </pre>
 
 The `sidebar: mydoc_sidebar` refers to the \_data/sidebars/mydoc_sidebar.yml file.
@@ -116,7 +112,8 @@ You can optionally turn off the sidebar on any page (e.g. landing pages). To tur
 If you don't declare a sidebar, the `home_sidebar` file gets used as the default because this is the default specified in the config file:
 
 ```yaml
-- scope:
+-
+  scope:
     path: ""
     type: "pages"
   values:
@@ -159,7 +156,8 @@ Here the topnav refers to the `_data/topnav.yml` file.
 Because most topnav options will be the same, the `_config.yml` file specifies the topnav file as a default:
 
 ```yaml
-- scope:
+-
+  scope:
     path: ""
     type: "pages"
   values:
@@ -176,55 +174,59 @@ The sidebar data file uses a specific YAML syntax that you must follow. Follow t
 
 ```yaml
 entries:
-  - title: sidebar
-    product: Jekyll Doc Theme
-    version: 6.0
-    folders:
-      - title: Overview
-        output: web, pdf
-        folderitems:
-          - title: Get started
-            url: /index.html
-            output: web, pdf
-            type: homepage
+- title: sidebar
+  product: Jekyll Doc Theme
+  version: 6.0
+  folders:
+  - title: Overview
+    output: web, pdf
+    folderitems:
 
-          - title: Introduction
-            url: /mydoc_introduction.html
-            output: web, pdf
+    - title: Get started
+      url: /index.html
+      output: web, pdf
+      type: homepage
 
-      - title: Release Notes
-        output: web, pdf
-        folderitems:
-          - title: 6.0 Release notes
-            url: /mydoc_release_notes_60.html
-            output: web, pdf
+    - title: Introduction
+      url: /mydoc_introduction.html
+      output: web, pdf
 
-          - title: 5.0 Release notes
-            url: /mydoc_release_notes_50.html
-            output: web, pdf
+  - title: Release Notes
+    output: web, pdf
+    folderitems:
 
-      - title: Tag archives
+    - title: 6.0 Release notes
+      url: /mydoc_release_notes_60.html
+      output: web, pdf
+
+    - title: 5.0 Release notes
+      url: /mydoc_release_notes_50.html
+      output: web, pdf
+
+  - title: Tag archives
+    output: web
+    folderitems:
+
+    - title: Tag archives overview
+      url: /mydoc_tag_archives_overview.html
+      output: web
+
+      subfolders:
+      - title: Tag archive pages
         output: web
-        folderitems:
-          - title: Tag archives overview
-            url: /mydoc_tag_archives_overview.html
-            output: web
+        subfolderitems:
 
-            subfolders:
-              - title: Tag archive pages
-                output: web
-                subfolderitems:
-                  - title: Formatting pages
-                    url: /tag_formatting.html
-                    output: web
+        - title: Formatting pages
+          url: /tag_formatting.html
+          output: web
 
-                  - title: Navigation pages
-                    url: /tag_navigation.html
-                    output: web
+        - title: Navigation pages
+          url: /tag_navigation.html
+          output: web
 
-                  - title: Content types pages
-                    url: /tag_content_types.html
-                    output: web
+        - title: Content types pages
+          url: /tag_content_types.html
+          output: web
 ```
 
 Each `folder` or `subfolder` must contain a `title` and `output` property. Each `folderitem` or `subfolderitem` must contain a `title`, `url`, and `output` property.
@@ -239,40 +241,43 @@ Each level must have at least one topic before the next level starts. You can't 
 
 ```yaml
 entries:
-  - title: sidebar
-    product: Jekyll Doc Theme
-    version: 6.0
-    folders:
-      - title: Overview
-        output: web, pdf
-        folderitems:
-          -
+- title: sidebar
+  product: Jekyll Doc Theme
+  version: 6.0
+  folders:
+  - title: Overview
+    output: web, pdf
+    folderitems:
 
-      - title: Release Notes
-        output: web, pdf
-        folderitems:
-          - title: 6.0 Release notes
-            url: /mydoc_release_notes_60.html
-            output: web, pdf
+    -
 
-          - title: 5.0 Release notes
-            url: /mydoc_release_notes_50.html
-            output: web, pdf
+  - title: Release Notes
+    output: web, pdf
+    folderitems:
 
-      - title: Installation
-        output: web, pdf
-        folderitems:
-          - title: About Ruby, Gems, Bundler, etc.
-            url: /mydoc_about_ruby_gems_etc.html
-            output: web, pdf
+    - title: 6.0 Release notes
+      url: /mydoc_release_notes_60.html
+      output: web, pdf
 
-          - title: Install Jekyll on Mac
-            url: /mydoc_install_jekyll_on_mac.html
-            output: web, pdf
+    - title: 5.0 Release notes
+      url: /mydoc_release_notes_50.html
+      output: web, pdf
 
-          - title: Install Jekyll on Windows
-            url: /mydoc_install_jekyll_on_windows.html
-            output: web, pdf
+  - title: Installation
+    output: web, pdf
+    folderitems:
+
+    - title: About Ruby, Gems, Bundler, etc.
+      url: /mydoc_about_ruby_gems_etc.html
+      output: web, pdf
+
+    - title: Install Jekyll on Mac
+      url: /mydoc_install_jekyll_on_mac.html
+      output: web, pdf
+
+    - title: Install Jekyll on Windows
+      url: /mydoc_install_jekyll_on_windows.html
+      output: web, pdf
 ```
 
 To accommodate the title page and table of contents in PDF outputs, each product sidebar must list these pages before any other:
@@ -282,14 +287,14 @@ To accommodate the title page and table of contents in PDF outputs, each product
   output: pdf
   type: frontmatter
   folderitems:
-    - title:
-      url: /titlepage
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage
-      output: pdf
-      type: frontmatter
+  - title:
+    url: /titlepage
+    output: pdf
+    type: frontmatter
+  - title:
+    url: /tocpage
+    output: pdf
+    type: frontmatter
 ```
 
 Leave the output as `output: pdf` for these frontmatter pages so that they don't appear in the web output.
@@ -354,7 +359,7 @@ Note that the topnav has two sections: `topnav` and `topnav_dropdowns`. The topn
 
 ## Generating PDF
 
-If you want to generate PDF, you'll need a license for [Prince XML](http://www.princexml.com/). You will also need to [install Prince](http://www.princexml.com/doc/installing/). You can generate PDFs by product (but not for every product on the site combined together into one massive PDF). Prince will work even without a license, but it will imprint a small Prince image on the first page, and you're supposed to buy the license to use it.
+If you want to generate PDF, you'll need a license for [Prince XML](http://www.princexml.com/). You will also need to [install Prince](http://www.princexml.com/doc/installing/).  You can generate PDFs by product (but not for every product on the site combined together into one massive PDF). Prince will work even without a license, but it will imprint a small Prince image on the first page, and you're supposed to buy the license to use it.
 
 If you're on Windows, install [Git Bash client](https://git-for-windows.github.io/) rather than using the default Windows command prompt.
 
@@ -382,7 +387,7 @@ This theme uses [kramdown markdown](http://kramdown.gettalong.org/). kramdown is
 
 When you want to insert paragraphs, notes, code snippets, or other matter in between the list items, use four spaces to indent. The four spaces will line up with the first letter of the list item (the <b>F</b>irst or <b>S</b>econd or <b>T</b>hird).
 
-````
+```
 1.  First item
 
     ```
@@ -394,7 +399,7 @@ When you want to insert paragraphs, notes, code snippets, or other matter in bet
     Some pig!
 
 3.  Third item
-````
+```
 
 See the topics under "Formatting" in the sidebar for more information.
 

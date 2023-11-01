@@ -10,7 +10,7 @@ folder: mydoc
 
 ## Ruby and RubyGems
 
-Ruby and [RubyGems](https://rubygems.org/pages/download) are usually installed by default on Macs. Open your Terminal and type `which ruby` and `which gem` to confirm that you have Ruby and Rubygems. You should get a response indicating the location of Ruby and Rubygems.
+Ruby and [RubyGems](https://rubygems.org/pages/download) are usually installed by default on Macs. Open your Terminal and type `which ruby` and  `which gem` to confirm that you have Ruby and Rubygems. You should get a response indicating the location of Ruby and Rubygems.
 
 If you get responses that look like this:
 
@@ -31,7 +31,7 @@ However, if your location is something like `/Users/MacBookPro/.rvm/rubies/ruby-
 ```
  >ERROR:  While executing gem ... (Gem::FilePermissionError)
   You don't have write permissions for the /Library/Ruby/Gems/2.0.0 directory.
-```
+```  
 
 Instead of changing the write permissions on your operating system's version of Ruby and Rubygems (which could pose security issues), you can install another instance of Ruby (one that is writable) to get around this.
 
@@ -142,7 +142,7 @@ To resolve the "No Github API authentication" error:
 
     Replace `abc123...` with your own token that you generated in step 1.
 
-4.  Go to **[https://curl.haxx.se/ca/cacert.pem][https://curl.haxx.se/ca/cacert.pem]. Right-click the page, select **Save as**, and save the file on your computer (save it somewhere safe, where you won't delete it). Name the file **cacert\*\*.
+4.  Go to **[https://curl.haxx.se/ca/cacert.pem][https://curl.haxx.se/ca/cacert.pem]. Right-click the page, select **Save as**, and save the file on your computer (save it somewhere safe, where you won't delete it). Name the file **cacert**.
 5.  Open your **.bash_profile** file again and add this line, replacing `Users/johndoe/projects/` with the path to your cacert.pem file:
 
     ```
@@ -154,3 +154,4 @@ To resolve the "No Github API authentication" error:
 Browse to your jekyll project and run `bundle exec jekyll serve`. Make an edit to a file and observe that no Github API errors appear when Jekyll rebuilds the project.
 
 {% include links.html %}
+
