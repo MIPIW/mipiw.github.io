@@ -1,10 +1,9 @@
 ---
-title: "NLP main category"
+title: "Paper Reviews and Ideations About NLP"
 tags: [getting_started]
 sidebar: mydoc_sidebar
 permalink: nlp.html
 ---
 
-
-- [first link](/first_page)
-- [second link](/second_page)
+- [first link](/review_XLNet)
+- [second link](/review_T5)
