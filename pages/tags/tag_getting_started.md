@@ -1,8 +1,8 @@
 ---
 title: "Getting started pages"
-tagName: getting_started
+tagName: review_main
 search: exclude
-permalink: review_main.html
+permalink: tag_getting_started.html
 sidebar: mydoc_sidebar
 folder: tags
 ---
