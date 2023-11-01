@@ -19,10 +19,11 @@ First, download or clone the theme from the [Github repo](https://github.com/tom
 
 ### 2. Install Jekyll
 
-If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:2
+If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:3
 
 - [Install Jekyll on Windows](/mydoc_about)
 - [Install Jekyll on Mac](/p1_sample1)
+- [go to nlp page](/nlp)
 
 ### 3. Install Bundler
 
