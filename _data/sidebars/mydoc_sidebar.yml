@@ -26,8 +26,8 @@ entries:
             output: web, pdf
             type: homepage
 
-          - title: god damm finally reached
-            url: /mipiw.github.io/mydoc_about
+          - title: god damm finally reached2
+            url: /mydoc_about
             output: web, pdf
 
           - title: Supported features
