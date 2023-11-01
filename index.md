@@ -19,9 +19,9 @@ First, download or clone the theme from the [Github repo](https://github.com/tom
 
 ### 2. Install Jekyll
 
-If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
+If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:1
 
-- [Install Jekyll on Windows](/mydoc_about)
+- [Install Jekyll on Windows](/mipiw.github.io/mydoc_about)
 - [Install Jekyll on Mac](/p1_sample1)
 
 ### 3. Install Bundler
