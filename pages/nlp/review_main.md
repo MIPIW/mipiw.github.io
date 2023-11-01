@@ -1,8 +1,8 @@
 ---
-title: "Paper Reviews and Ideations About NLP"
+title: "Paper Reviews About NLP"
 tags: [getting_started]
 sidebar: mydoc_sidebar
-permalink: nlp.html
+permalink: review_main.html
 ---
 
 - [first link](/review_XLNet)
