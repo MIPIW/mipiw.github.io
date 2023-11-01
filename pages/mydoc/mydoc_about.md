@@ -5,11 +5,11 @@ last_updated: July 3, 2016
 tags: [getting_started]
 summary: "I have used this theme for projects that I've worked on as a professional technical writer."
 sidebar: mydoc_sidebar
-permalink: mydoc_about.html
+permalink: pages/mydoc/mydoc_about.html
 folder: mydoc
 ---
 
-My name is Tom Johnson, and I'm a technical writer, blogger, and podcaster based in San Jose, California. For more details, see my [technical writing blog](http://idratherbewriting.com) and my [course on API documentation](http://idratherbewriting.com/learnapidoc/).  See [my blog's about page](http://idratherbewriting.com/aboutme/) for more details about me.
+My name is Tom Johnson, and I'm a technical writer, blogger, and podcaster based in San Jose, California. For more details, see my [technical writing blog](http://idratherbewriting.com) and my [course on API documentation](http://idratherbewriting.com/learnapidoc/). See [my blog's about page](http://idratherbewriting.com/aboutme/) for more details about me.
 
 I have used this theme and variations of it for various documentation projects. This theme has undergone several major iterations, and now it's fairly stable and full of all the features that I need. You are welcome to use it for your documentation projects for free.
 
