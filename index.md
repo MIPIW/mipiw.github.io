@@ -34,6 +34,8 @@ gem install bundler
 
 You'll want [Bundler](http://bundler.io/) to make sure all the Ruby gems needed work well with your project. Bundler sorts out dependencies and installs missing gems or matches up gems with the right versions based on gem dependencies.
 
+**this is my real index [page][my_real_index]**
+
 ### 4. Option 1: Build the Theme (_without_ the github-pages gem) {#option1}
 
 Use this option if you're not planning to publish your Jekyll site using [Github Pages](https://pages.github.com/).
