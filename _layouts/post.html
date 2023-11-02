@@ -28,7 +28,11 @@ layout: default
         {{ content }}
     </div>
 
-
+    <div>
+        {% for category in page.categories % }
+          <a href="{{ site.url }}/category/{{ category }}.html" >{{ category }}</a>
+        {% endfor %}
+      </div>
 
 </article>
 
@@ -39,3 +43,4 @@ layout: default
 {% include footer.html %}
 
 {% comment %} Copyright 2021 Google LLC {% endcomment %}
+

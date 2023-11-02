@@ -1,6 +1,7 @@
 ---
 layout: category
-title: category1
+categories: ["Tools"]
+title: "Tools"
 ---
 
 ffffffffffffffffffff
