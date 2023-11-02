@@ -6,7 +6,6 @@ permalink: review_XLNet.html
 categories: [category1]
 ---
 
-XNLet
 |-|-|-|
 |Importance|Author|Organization|
 |★|Large|Red|
