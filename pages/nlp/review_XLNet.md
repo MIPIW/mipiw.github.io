@@ -3,6 +3,10 @@ title: "Review: XLNet"
 tags: [getting_started]
 sidebar: mydoc_sidebar
 permalink: review_XLNet.html
+categories: [category1]
 ---
 
-the first review of NLP paper is about XLNet
+XNLet
+|-|-|-|
+|Importance|Author|Organization|
+|★|Large|Red|
