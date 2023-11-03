@@ -1,6 +1,6 @@
 ---
 layout: category
-title: jekyll
+title: jeekyll
 categories: ["jekyll"]
 permalink: category/jekyll.html
 ---
