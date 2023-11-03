@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{{page.title}} {{content}}
+
 <div>
   {% assign category = page.categories | join: "-" %}
   <a href="{{ site.url }}/categories/{{ category }}.html"
