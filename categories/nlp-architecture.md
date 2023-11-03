@@ -5,4 +5,4 @@ categories: ["nlp", "architecture"]
 permalink: /category/nlp-architecture.html
 ---
 
-f
+this is the content of nlp-architecture
