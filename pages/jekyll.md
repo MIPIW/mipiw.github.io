@@ -1,8 +1,7 @@
 ---
 layout: category
 title: jekyll
-category: jekyll
-permalink: /category/jekyll.html
+categories: ["jekyll"]
 ---
 
 this is the page
