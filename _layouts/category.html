@@ -7,12 +7,11 @@
   {% assign categories = page.categories | join: "-" %} {% for post in
   site.posts %} {% assign postCategories = post.categories | join: "-" %} {% if
   categories == postCategories %}
-  <li>{{ page.categories }}</li>
-  <li>{{ page }}</li>
-  <li>{{ post }}</li>
-  <li>{{ post.categories }}</li>
+
   <li>
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
   </li>
+  <li>{{ site.baseurl }}</li>
+  <li>{{ post.url }}</li>
   {% endif %} {% endfor %}
 </ul>
