@@ -2,7 +2,7 @@
 layout: category
 title: nlp-architecture
 categories: ["nlp", "architecture"]
-permalink: /category/nlp-architecture.html
+permalinks: /category/nlp-architecture
 ---
 
 this is the content of nlp-architecture
