@@ -31,6 +31,7 @@ github_username: jekyll
 category_list: [jekyll]
 # Build settings
 theme: minima
+collections: pages
 plugins:
   - jekyll-feed
 # Exclude from processing.
