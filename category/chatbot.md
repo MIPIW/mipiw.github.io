@@ -1,5 +1,5 @@
 ---
-layout: category1
+layout: category
 title: CHATBOT
 category: chatbot
 permalink: "/category/chatbot"

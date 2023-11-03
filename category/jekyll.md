@@ -1,5 +1,5 @@
 ---
-layout: category1
+layout: category
 title: jekyll
 category: jekyll
 permalink: "/category/jekyll"
