@@ -82,9 +82,8 @@
   </head>
 
   <body>
-    <!-- {% include topnav.html %} -->
+    {% include topnav.html %}
     <!-- Page Content -->
-    ffffffffffffff {{site.url}} {{site.baseurl}}
     <div class="container">
       <div id="main">
         <!-- Content Row -->
@@ -93,7 +92,7 @@
           page.hide_sidebar %}
           <!-- Sidebar Column -->
           <div class="col-md-3" id="tg-sb-sidebar">
-            <!-- {% include sidebar.html %} -->
+            {% include sidebar.html %}
           </div>
           {% assign content_col_size = "col-md-9" %} {% endunless %}
 
