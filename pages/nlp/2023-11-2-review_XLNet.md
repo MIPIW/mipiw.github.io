@@ -1,16 +1,21 @@
 ---
-title: "Paper: XLNet"
 sidebar: mydoc_sidebar
+
+title: "Review: XLNet"
 date: "2023.11.03."
 layout: categorized_post
 categories: ["nlp", "architectures"]
 
 rank: "★"
 type: review
-published_year: "2019"
+published_year: "Jun 2019"
 author: "Zhilin Y., et. al."
+author_full: "Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Ruslan Salakhutdinov, Quoc V. Le"
+keyword: "AR, AE, factorial MLM, sampled factorial"
 ---
 
-|-|-|-|
-|Importance | Author | Organization|
-|★ | Large | Red|
+|-|-|
+| Author | {{page.author_full}} |
+| Published |{{page.published_year}}|
+| Keywords | {{page.keyword}} |
+| Importance | {{page.rank}} |
