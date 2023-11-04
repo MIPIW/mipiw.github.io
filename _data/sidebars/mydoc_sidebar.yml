@@ -18,30 +18,30 @@ entries:
             output: pdf
             type: frontmatter
 
-      - title: NLP
+      - title: nlp
         output: web, pdf
         folderitems:
           - title: Interpretability1
-            url: \/categories\/NLP-Interpretability.html
+            url: \/categories\/nlp-interpretability.html
             output: web, pdf
           - title: "Model: Architectures"
-            url: \/categories\/NLP-Architectures.html
+            url: \/categories\/nlp-architectures.html
             output: web, pdf
             type: homepage
           - title: "Model: Phonology and Morphology"
-            url: \/categories\/NLP-Phonology-Morphology.html
+            url: \/categories\/nlp-phonology-morphology.html
             output: web, pdf
             type: homepage
           - title: "Model: Syntax and Semantics"
-            url: \/categories\/NLP-Syntax-Semantics.html
+            url: \/categories\/nlp-syntax-semantics.html
             output: web, pdf
             type: homepage
           - title: "Model: Phonetics and SLP"
-            url: \/categories\/NLP-Phonetics-SLP.html
+            url: \/categories\/nlp-phonetics-slp.html
             output: web, pdf
             type: homepage
           - title: "Model: Multilingual"
-            url: \/categories\/NLP-multilingual.html
+            url: \/categories\/nlp-multilingual.html
             output: web, pdf
             type: homepage
 
