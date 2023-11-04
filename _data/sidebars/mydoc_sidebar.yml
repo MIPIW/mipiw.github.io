@@ -101,33 +101,33 @@ entries:
             url: \/categories\/othersubj-neuroscience.html
             output: web, pdf
 
-      - title: Mythology(Locked)
-        output: web, pdf
-        folderitems:
-          - title: Weekly Sermon
-            url: \/categories\/mythology-weeklysermon.html
-            output: web, pdf
+      # - title: Mythology(Locked)
+      #   output: web, pdf
+      #   folderitems:
+      #     - title: Weekly Sermon
+      #       url: \/categories\/mythology-weeklysermon.html
+      #       output: web, pdf
 
-          - title: Vision School
-            url: \/categories\/mythology-visionschool.html
-            output: web, pdf
-          - title: One-to-One
-            url: \/categories\/mythology-onetoone.html
-            output: web, pdf
-          - title: Others
-            url: \/categories\/mythology-others.html
-            output: web, pdf
+      #     - title: Vision School
+      #       url: \/categories\/mythology-visionschool.html
+      #       output: web, pdf
+      #     - title: One-to-One
+      #       url: \/categories\/mythology-onetoone.html
+      #       output: web, pdf
+      #     - title: Others
+      #       url: \/categories\/mythology-others.html
+      #       output: web, pdf
 
-      - title: Personal Schema(Locked)
-        output: web, pdf
-        folderitems:
-          - title: General
-            url: \/categories\/schema-general.html
-            output: web, pdf
+      # - title: Personal Schema(Locked)
+      #   output: web, pdf
+      #   folderitems:
+      #     - title: General
+      #       url: \/categories\/schema-general.html
+      #       output: web, pdf
 
-      - title: Others(Locked)
-        output: web, pdf
-        folderitems:
-          - title: Private Lesson Contents
-            url: \/categories\/others-lesson.html
-            output: web, pdf
+      # - title: Others(Locked)
+      #   output: web, pdf
+      #   folderitems:
+      #     - title: Private Lesson Contents
+      #       url: \/categories\/others-lesson.html
+      #       output: web, pdf
