@@ -41,7 +41,7 @@ entries:
             output: web, pdf
             type: homepage
           - title: "Model: Multilingual"
-            url: \/categories\/NLP-multilingual.html
+            url: \/categoriesNLP-multilingual.html
             output: web, pdf
             type: homepage
 
