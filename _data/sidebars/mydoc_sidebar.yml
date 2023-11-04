@@ -22,26 +22,26 @@ entries:
         output: web, pdf
         folderitems:
           - title: Interpretability1
-            url: \/categories\/nlp-interpretability.html
+            url: \/categories\/NLP-interpretability.html
             output: web, pdf
           - title: "Model: Architectures"
-            url: \/categories\/nlp-architectures.html
+            url: \/categories\/NLP-architectures.html
             output: web, pdf
             type: homepage
           - title: "Model: Phonology and Morphology"
-            url: \/categories\/nlp-phonology-morphology.html
+            url: \/categories\/NLP-phonology-morphology.html
             output: web, pdf
             type: homepage
           - title: "Model: Syntax and Semantics"
-            url: \/categories\/nlp-syntax-semantics.html
+            url: \/categories\/NLP-syntax-semantics.html
             output: web, pdf
             type: homepage
           - title: "Model: Phonetics and SLP"
-            url: \/categories\/nlp-phonetics-slp.html
+            url: \/categories\/NLP-phonetics-slp.html
             output: web, pdf
             type: homepage
           - title: "Model: Multilingual"
-            url: /categories/nlp-multilingual.html
+            url: /categories/NLP-multilingual.html
             output: web, pdf
             type: homepage
 
