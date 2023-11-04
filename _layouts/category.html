@@ -10,9 +10,11 @@ layout: default
     {% assign categories = page.categories | join: "-" %} {% for post in
     site.pages %} {% assign postCategories = post.categories | join: "-" %} {%
     if categories == postCategories %} {% if page.url != post.url %}
-    {{site.url}} {{site.baseurl}}
+
     <li>
       <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+      / {{ post.published_year }} / {{ post.author }} / {{ post.rank }} / {{
+      post.date }}
     </li>
     {% endif %} {% endif %} {% endfor %}
   </ul>
