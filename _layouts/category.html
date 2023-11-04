@@ -12,7 +12,7 @@ layout: default
     if categories == postCategories %} {% if page.url != post.url %}
 
     <li>
-      <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.title }}</a>
       / {{ post.published_year }} / {{ post.author }} / {{ post.rank }} / {{
       post.date }}
     </li>
