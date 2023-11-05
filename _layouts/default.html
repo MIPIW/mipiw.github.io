@@ -84,6 +84,11 @@
   <body>
     {% include topnav.html %}
     <!-- Page Content -->
+    contstart
+    <div>
+      <ul id="results-container"></ul>
+    </div>
+    contend
     <div class="container">
       <div id="main">
         <!-- Content Row -->
@@ -97,6 +102,7 @@
           {% assign content_col_size = "col-md-9" %} {% endunless %}
 
           <!-- Content Column -->
+
           <div class="{{content_col_size}}" id="tg-sb-content">{{content}}</div>
           <!-- /.row -->
         </div>
