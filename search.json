@@ -9,8 +9,9 @@ search: exclude
 
 {% for page in pages %}
 {
+"search": "{{page.search | strip }}",
 "title": "{{ page.title | escape }}",
-"category": "{{post.categories | join: '-'}}",
+"category": "{{page.categories | join: '-'}}",
 "tags": "{{ page.tags }}",
 "keywords": "{{page.keywords}}",
 "url": "{{ page.url }}",
@@ -20,9 +21,11 @@ search: exclude
 {% unless forloop.last and site.posts.size < 1 %},{% endunless %}
 {% endfor %}
 
-{% for post in site.posts %}
+{% assign posts = site.posts | where_exp: "post", "post.search != 'exclude'"  %}
+{% for post in posts %}
 
 {
+"search": "{{post.search | strip }}",
 "title": "{{ post.title | escape }}",
 "category": "{{post.categories | join: '-'}}",
 "tags": "{{ post.tags }}",

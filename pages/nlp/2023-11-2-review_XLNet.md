@@ -1,6 +1,5 @@
 ---
 sidebar: mydoc_sidebar
-
 title: "Review: XLNet"
 date: "2023.11.03."
 layout: categorized_post
@@ -11,7 +10,7 @@ type: review
 published_year: "Jun 2019"
 author: "Zhilin Y., et. al."
 author_full: "Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Ruslan Salakhutdinov, Quoc V. Le"
-keyword: "AR, AE, factorial MLM, sampled factorial"
+keywords: "AR, AE, factorial MLM, sampled factorial"
 summary: "blablabla"
 ---
 
@@ -24,3 +23,7 @@ summary: "blablabla"
 {{page.summary}}
 
 well this is the main posts,''' but not a html but a markdown
+
+[first link](/review_XLNet)
+
+- [second link](/review_T5)
