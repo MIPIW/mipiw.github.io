@@ -35,7 +35,7 @@ search: exclude
     dataSource: "/search.json",
     searchResultTemplate:
     '<li><a href="{url}" title="{{page.title | escape}}">{title}</a></li>'+
-    '<h4 category="{{pagee.category | escape}} keywords="{{page.keywords | escape}}">-> {category}<br/>-> {keywords}</h4>',
+    '<h4 category="{{page.category | escape}} keywords="{{page.keywords | escape}}">-> {category}<br/>- {keywords}</h4>',
     
     noResultsText: "{{site.data.strings.search_no_results_text}}",
     limit: 10,

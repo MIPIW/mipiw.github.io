@@ -1,5 +1,8 @@
 ---
 layout: default
+sidebar: mydoc_sidebar
+title: Search-contents
+search: exclude
 ---
 
 <br />
@@ -13,5 +16,7 @@ layout: default
 <br />
 <div>
   {% assign category = page.categories | join: "-" %}
-  <a href="/categories/{{ category }}.html">Return To Categories</a>
+  <a href="/categories/{{ category }}.html"
+    >Return To The Category: {{category}}</a
+  >
 </div>
