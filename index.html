@@ -13,5 +13,7 @@ layout: default
 </p>
 
 <script> 
-console.log('/search.json')
+const reader = new FileReader();
+reader.readAsText('/search.json')
+console.log(reader.result)
 </script>
