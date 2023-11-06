@@ -31,7 +31,7 @@ entries:
           - title: Interpretability
             url: \/categories\/nlp-interpretability.html
             output: web, pdf
-          - title: "Model: Architectures"
+          - title: "Model: Architecturesaaaaaaaaaaa"
             url: \/categories\/nlp-architectures.html
             output: web, pdf
             type: homepage

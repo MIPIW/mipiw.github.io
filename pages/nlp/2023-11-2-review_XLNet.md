@@ -1,9 +1,10 @@
 ---
 sidebar: mydoc_sidebar
-title: "Review: XLNet"
+title: "Review: XLNets"
 date: "2023.11.03."
 layout: categorized_post
 categories: ["nlp", "architectures"]
+sub_category: ["classa"]
 
 rank: "★"
 type: review
