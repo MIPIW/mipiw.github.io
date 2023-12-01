@@ -12,7 +12,7 @@ published_year: "2019.01.00."
 
 # variable
 categories: ['nlp', 'architectures'] # must be length 2 list
-sub_category: [''] # optional, must be a singleton list. if no subcategory filled, it will regareded in listed page in sidebar page
+sub_category: ['general'] # optional, must be a singleton list. if no subcategory filled, it will regareded in listed page in sidebar page
 rank: "☆☆☆"
 keywords: "generative AR, bidirectional AE, sampled permutation LM, sequence inductive bias, transformer-XL"
 summary: "- 

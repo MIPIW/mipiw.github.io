@@ -5,8 +5,8 @@ layout: categorized_post
 sidebar: mydoc_sidebar
 search: include
 
-title: "Review - XLNet: Generalized Autoregressive Pretraining for Language Understanding."
-date: "2023.11.09."
+title: "templatesff"
+date: ""
 reference: "[link](https://arxiv.org/abs/1906.08237)"
 published_year: "2019.01.00."
 
