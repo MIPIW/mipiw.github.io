@@ -9,19 +9,19 @@ entries:
         output: web, pdf
         folderitems:
           - title: "Phonetics"
-            url: \/categories\/linguistics-phonetics.html
+            url: \/categories\/public\/linguistics-phonetics.html
             output: web, pdf
 
           - title: "Phonology and Morphology"
-            url: \/categories\/linguistics-phonology-morphology.html
+            url: \/categories\/public\/linguistics-phonology-morphology.html
             output: web, pdf
             type: homepage
           - title: "Syntax and Semantics"
-            url: \/categories\/linguistics-syntax-semantics.html
+            url: \/categories\/public\/linguistics-syntax-semantics.html
             output: web, pdf
             type: homepage
           - title: "Pragmatics and Information System"
-            url: \/categories\/linguistics-pragmatics-information.html
+            url: \/categories\/public\/linguistics-pragmatics-information.html
             output: web, pdf
             type: homepage
 
@@ -29,26 +29,26 @@ entries:
         output: web, pdf
         folderitems:
           - title: Interpretability
-            url: \/categories\/nlp-interpretability.html
+            url: \/categories\/public\/nlp-interpretability.html
             output: web, pdf
           - title: "Model: Architecturesaaaaaaaaaaa"
-            url: \/categories\/nlp-architectures.html
+            url: \/categories\/public\/nlp-architectures.html
             output: web, pdf
             type: homepage
           - title: "Model: Phonology and Morphology"
-            url: \/categories\/nlp-phonology-morphology.html
+            url: \/categories\/public\/nlp-phonology-morphology.html
             output: web, pdf
             type: homepage
           - title: "Model: Syntax and Semantics"
-            url: \/categories\/nlp-syntax-semantics.html
+            url: \/categories\/public\/nlp-syntax-semantics.html
             output: web, pdf
             type: homepage
           - title: "Model: Phonetics and SLP"
-            url: \/categories\/nlp-phonetics-slp.html
+            url: \/categories\/public\/nlp-phonetics-slp.html
             output: web, pdf
             type: homepage
           - title: "Model: Multilingual"
-            url: \/categories\/nlp-multilingual.html
+            url: \/categories\/public\/nlp-multilingual.html
             output: web, pdf
             type: homepage
 
@@ -56,78 +56,78 @@ entries:
         output: web, pdf
         folderitems:
           - title: Vision
-            url: \/categories\/otherai-vision.html
+            url: \/categories\/public\/otherai-vision.html
             output: web, pdf
           - title: Multimodal
-            url: \/categories\/otherai-multimodal.html
+            url: \/categories\/public\/otherai-multimodal.html
             output: web, pdf
           - title: Optimization
-            url: \/categories\/otherai-optimization.html
+            url: \/categories\/public\/otherai-optimization.html
             output: web, pdf
           - title: TDA
-            url: \/categories\/otherai-tda.html
+            url: \/categories\/public\/otherai-tda.html
             output: web, pdf
 
       - title: CS
         output: web, pdf
         folderitems:
           - title: Algorithms/DS
-            url: \/categories\/cs-algorithms-ds.html
+            url: \/categories\/public\/cs-algorithms-ds.html
             output: web, pdf
           - title: Optimization
-            url: \/categories\/cs-optimization.html
+            url: \/categories\/public\/cs-optimization.html
             output: web, pdf
           - title: Neuromorphic
-            url: \/categories\/cs-neuromorphic.html
+            url: \/categories\/public\/cs-neuromorphic.html
             output: web, pdf
 
       - title: Mathematics
         output: web, pdf
         folderitems:
           - title: Linear Algebra
-            url: \/categories\/mathematics-linearalgebra.html
+            url: \/categories\/public\/mathematics-linearalgebra.html
             output: web, pdf
           - title: Topology
-            url: \/categories\/mathematics-topology.html
+            url: \/categories\/public\/mathematics-topology.html
             output: web, pdf
 
       - title: Other Subjects
         output: web, pdf
         folderitems:
           - title: Statistics
-            url: \/categories\/othersubj-statistics.html
+            url: \/categories\/public\/othersubj-statistics.html
             output: web, pdf
           - title: Neuroscience
-            url: \/categories\/othersubj-neuroscience.html
+            url: \/categories\/public\/othersubj-neuroscience.html
             output: web, pdf
 
-      # - title: Mythology(Locked)
-      #   output: web, pdf
-      #   folderitems:
-      #     - title: Weekly Sermon
-      #       url: \/categories\/mythology-weeklysermon.html
-      #       output: web, pdf
+      - title: Mythology(Locked)
+        output: web, pdf
+        folderitems:
+          - title: Weekly Sermon
+            url: \/categories\/private\/mythology-weeklysermon.html
+            output: web, pdf
 
-      #     - title: Vision School
-      #       url: \/categories\/mythology-visionschool.html
-      #       output: web, pdf
-      #     - title: One-to-One
-      #       url: \/categories\/mythology-onetoone.html
-      #       output: web, pdf
-      #     - title: Others
-      #       url: \/categories\/mythology-others.html
-      #       output: web, pdf
+          - title: Vision School
+            url: \/categories\/private\/mythology-visionschool.html
+            output: web, pdf
+          - title: One-to-One
+            url: \/categories\/private\/mythology-onetoone.html
+            output: web, pdf
+          - title: Others
+            url: \/categories\/private\/mythology-others.html
+            output: web, pdf
 
-      # - title: Personal Schema(Locked)
-      #   output: web, pdf
-      #   folderitems:
-      #     - title: General
-      #       url: \/categories\/schema-general.html
-      #       output: web, pdf
+      - title: Personal Schema(Locked)
+        output: web, pdf
+        folderitems:
+          - title: General
+            url: \/categories\/private\/schema-general.html
+            output: web, pdf
 
-      # - title: Others(Locked)
-      #   output: web, pdf
-      #   folderitems:
-      #     - title: Private Lesson Contents
-      #       url: \/categories\/others-lesson.html
-      #       output: web, pdf
+      - title: Others(Locked)
+        output: web, pdf
+        folderitems:
+          - title: Private Lesson Contents
+            url: \/categories\/private\/others-lesson.html
+            output: web, pdf
