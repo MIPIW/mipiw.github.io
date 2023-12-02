@@ -31,7 +31,7 @@ entries:
           - title: Interpretability
             url: \/categories\/public\/nlp-interpretability.html
             output: web, pdf
-          - title: "Model: Architecturesaaaaaaaaaaa"
+          - title: "Model: Architectures"
             url: \/categories\/public\/nlp-architectures.html
             output: web, pdf
             type: homepage
@@ -123,6 +123,9 @@ entries:
         folderitems:
           - title: General
             url: \/categories\/private\/schema-general.html
+            output: web, pdf
+          - title: Private
+            url: \/categories\/private\/schema-private.html
             output: web, pdf
 
       - title: Others(Locked)
