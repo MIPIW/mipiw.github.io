@@ -9,13 +9,13 @@ search: exclude
 
 {% for page in pages %}
 {
-"search": "{{page.search | strip }}",
-"title": "{{ page.title | escape }}",
-"category": "{{page.categories | join: '-'}}",
-"tags": "{{ page.tags }}",
-"keywords": "{{page.keywords}}",
-"url": "{{ page.url }}",
-"summary": "{{page.summary | strip }}",
+"search": "{{page.search | strip | escape_once }}",
+"title": "{{ page.title | escape_once }}",
+"category": "{{page.categories | join: '-' | escape_once}}",
+"tags": "{{ page.tags | escape_once}}",
+"keywords": "{{page.keywords | escape_once}}",
+"url": "{{ page.url | escape_once}}",
+"summary": "{{page.summary | strip | escape_once | strip_newlines }}",
 "content": "{{page.content |  strip_html | strip_newlines | escape_once | replace: "\", "\\\\"}}"
 }
 {% unless forloop.last and site.posts.size < 1 %},{% endunless %}
@@ -25,13 +25,13 @@ search: exclude
 {% for post in posts %}
 
 {
-"search": "{{post.search | strip }}",
-"title": "{{ post.title | escape }}",
-"category": "{{post.categories | join: '-'}}",
-"tags": "{{ post.tags }}",
-"keywords": "{{post.keywords}}",
-"url": "{{ post.url }}",
-"summary": "{{post.summary | strip }}",
+"search": "{{post.search | strip | escape_once}}",
+"title": "{{ post.title | escape | escape_once}}",
+"category": "{{post.categories | join: '-' | escape_once}}",
+"tags": "{{ post.tags | escape_once}}",
+"keywords": "{{post.keywords | escape_once}}",
+"url": "{{ post.url | escape_once}}",
+"summary": "{{post.summary | strip | escape_once | strip_newlines }}",
 "content": "{{post.content |  strip_html | strip_newlines | escape_once | replace: "\", "\\\\"}}"
 }
 {% unless forloop.last %},{% endunless %}
