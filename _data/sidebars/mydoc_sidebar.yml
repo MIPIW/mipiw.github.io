@@ -118,6 +118,28 @@ entries:
             url: \/categories\/private\/mythology-others.html
             output: web, pdf
 
+      - title: News(Locked)
+        output: web, pdf
+        folderitems:
+          - title: Asia
+            url: \/categories\/private\/news-asia.html
+            output: web, pdf
+          - title: Europe
+            url: \/categories\/private\/news-europe.html
+            output: web, pdf
+          - title: Middle East
+            url: \/categories\/private\/news-middleeast.html
+            output: web, pdf
+          - title: America
+            url: \/categories\/private\/news-america.html
+            output: web, pdf
+          - title: Africa, S-America
+            url: \/categories\/private\/news-others.html
+            output: web, pdf
+          - title: Academics
+            url: \/categories\/private\/news-academics.html
+            output: web, pdf
+
       - title: Personal Schema(Locked)
         output: web, pdf
         folderitems:
